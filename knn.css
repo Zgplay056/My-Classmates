@@ -1,0 +1,208 @@
+body{
+    /*formating to the emotions colors*/
+    .BingBong{
+        background-color: #F58DB8 !important;
+    }
+    .Sadness{
+        background-color: #3679C5 !important;
+        color: black;
+    }
+    .Anxiety{
+        background-color: #DA5B0E !important;
+    }
+    .Anger{
+        background-color: #F3413A !important;
+    }
+    .Disgust{
+        background-color: #57A63B !important;
+        color: black;
+    }
+    .JOY{
+        background-color: #F0C230 !important;
+    }
+    .Envy{
+        background-color: #14A095 !important;
+        color: black;
+    }
+    .Ennui{
+        background-color: #433EB6 !important;
+        color: black;
+    }
+    .Fear{
+        background-color: #6D3A99 !important;
+        color: black;
+    }
+    .Embarrassment{
+        background-color: #CD2887 !important;
+    }
+    /* Formating the images' size*/
+    #bingbong{
+        width: 100%;
+        height: 270% !important;
+    }
+    #sadness{
+        width: 100%; ;
+        height: 100% !important;   
+    }
+    #anxiety{
+        width: 100%;
+        height: 100%;  
+    }
+    #anger{
+        width: 100%;
+        height: 100%;
+    }
+    #disgust{
+        width: 100%;
+        height: 100%;
+    }
+    #joy{
+        width: 100%;
+        height: 100%;   
+    }
+    #ennui{
+        width: 100%;
+        height: 100%;   
+    }
+    #envy{
+        width: 100%;
+        height: 100%; 
+    }
+    #fear{
+        width: 100%;
+        height: 100%;  
+    }
+    #embarrassment{
+        width: 100%;
+        height: 100%;  
+    }
+
+    /*Formating the banners*/
+    .banner{
+        margin-top: 50px ;
+        margin-bottom: 50px ;
+    }
+
+    /*Formating the text and the image*/
+    .div_front {
+        display: flex;
+    }
+    .text_front {
+        display: inline-block;
+        margin-right: 10px;
+        font: Times New Roman;
+        font-size: 32px;
+        margin-top: 30px;
+        /* The text need to be trasparent to apply the gradient */
+        color: transparent;
+    }
+
+    /* adding the KNN gradient to the text */
+    .knn_gradient {
+
+        background-image: linear-gradient(#67008E, #F70052); 
+
+        background-clip: text;
+
+        -webkit-background-clip: text;
+
+        font-weight: 400;
+    }
+    .img_front {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 12%;
+        margin-bottom: 20px;
+    }
+    .myTitle{
+        text-align: center;
+        align-items: center;
+        margin-bottom: 25px;
+        color: transparent;  
+        font-weight: 400;   
+    }
+   .banner {
+       width: 50%;
+       height: 50%;
+   }
+
+   /* Formating the "emotions_links" */
+   .emotions_links {
+        width: 75%;
+        height: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+        margin-bottom: 75px;
+   }
+   
+   /* Very obvious*/
+   .teacher_video{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   }
+   /* text*/ 
+   .text{
+    color: transparent;
+    font-weight: 400;
+    font: Times New Roman;
+    font-size: 27px;
+   }
+   /* Formating the button */
+   .My_btn{
+    background-color: #14A095;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 25px;
+   }
+   /* Formating the image and the text again to make it more responsive */
+.div_front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .div_front {
+        flex-direction: row;
+    }
+
+    .text-container {
+        flex: 1;
+    }
+
+    .img-container {
+        flex: 1.5;
+    }
+}
+    /*
+        OLD ONES
+
+    JOY #F0C230
+    Sadness #3679C5
+    Anger #F3413A
+    Fear #6D3A99
+    Disgust #57A63B
+
+        NEW ONES
+
+    anxiety #DA5B0E
+    envy #14A095
+    embarrassment #CD2887
+    ennui #433EB6
+    */
+}
