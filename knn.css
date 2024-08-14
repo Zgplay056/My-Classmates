@@ -2,27 +2,31 @@ body{
     /*formating to the emotions colors*/
     .BingBong{
         background-color: #F58DB8 !important;
+        color: white;
     }
     .Sadness{
         background-color: #3679C5 !important;
-        color: black;
+         color: white;
     }
     .Anxiety{
         background-color: #DA5B0E !important;
+        color: white;
     }
     .Anger{
         background-color: #F3413A !important;
+          color: white;
     }
     .Disgust{
         background-color: #57A63B !important;
-        color: black;
+        color: white;
     }
     .JOY{
         background-color: #F0C230 !important;
+        color: white;
     }
     .Envy{
         background-color: #14A095 !important;
-        color: black;
+        color: white;
     }
     .Ennui{
         background-color: #433EB6 !important;
@@ -30,10 +34,11 @@ body{
     }
     .Fear{
         background-color: #6D3A99 !important;
-        color: black;
+        color: white;
     }
     .Embarrassment{
         background-color: #CD2887 !important;
+        color: white;
     }
     /* Formating the images' size*/
     #bingbong{
