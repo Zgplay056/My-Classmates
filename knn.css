@@ -3,42 +3,52 @@ body{
     .BingBong{
         background-color: #F58DB8 !important;
         color: white;
+        font-size: 20px;
     }
     .Sadness{
         background-color: #3679C5 !important;
-         color: white;
+        color: white;
+        font-size: 20px;
     }
     .Anxiety{
         background-color: #DA5B0E !important;
         color: white;
+        font-size: 20px;
     }
     .Anger{
         background-color: #F3413A !important;
           color: white;
+          font-size: 20px;
     }
     .Disgust{
         background-color: #57A63B !important;
         color: white;
+        font-size: 20px;
     }
     .JOY{
         background-color: #F0C230 !important;
         color: white;
+        font-size: 20px;
     }
     .Envy{
         background-color: #14A095 !important;
         color: white;
+        font-size: 20px;
     }
     .Ennui{
         background-color: #433EB6 !important;
-        color: black;
+        color: white;
+        font-size: 20px;
     }
     .Fear{
         background-color: #6D3A99 !important;
         color: white;
+        font-size: 20px;
     }
     .Embarrassment{
         background-color: #CD2887 !important;
         color: white;
+        font-size: 20px;
     }
     /* Formating the images' size*/
     #bingbong{
