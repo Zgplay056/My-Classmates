@@ -1,2 +1,2 @@
 # MyClassmates
-Here you can see how crazy is my classes on KNN LOL
+Here you can see how crazy are my classes on KNN LOL
