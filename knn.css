@@ -220,4 +220,12 @@ body{
     embarrassment #CD2887
     ennui #433EB6
     */
+    .mySlides{
+        text-align: center;
+        align-items: center;
+        margin-left: 200px;
+        margin-top: 75px;
+    }
+}
+
 }
