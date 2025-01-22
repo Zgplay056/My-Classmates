@@ -226,6 +226,32 @@ body{
         margin-left: 200px;
         margin-top: 75px;
     }
-}
+
+    .wheel{
+        animation: rotate 4s linear infinite;;
+        margin-left: auto;
+        width: 250px;
+        height: 250px;
+    }
+
+    .test{
+        text-align: center;
+        display:flex;
+        align-items: center;
+        margin-left: auto;
+        border: 2px solid #57A63B;
+        height: 1000px;
+    }
 
 }
+
+/*Animation for the wheel needs to be outside body{*/
+@keyframes rotate{
+    from{
+     transform: rotate(0deg);
+    } 
+
+     to{
+         transform: rotate(360deg);
+    } 
+ }
